@@ -6,9 +6,10 @@ import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
 
+import br.com.caelum.vraptor.ioc.Component;
 import br.com.rpl.clickweb.modelo.Usuario;
 import br.com.rpl.clickweb.repositorio.UsuarioDao;
-
+@Component
 public class UsuarioDaoHibernate implements UsuarioDao {
 	private Session session;
 
