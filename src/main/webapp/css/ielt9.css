@@ -1,0 +1,19 @@
+.page {
+	max-width: 940px;
+}
+
+.date.box {
+	min-height: 200px !important;
+}
+
+.date.box .body {
+	margin-top: 110px !important;
+}
+
+.filter-separator {
+	width: 235px !important;
+}
+
+.filter-separator .form-field {
+	min-width: 140px !important;
+}

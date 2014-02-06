@@ -24,19 +24,19 @@
     
    
   </head>
-  <body>
+  <body style="background-color:#eee" >
   
 
     <div class="container bg-sand-gray header-title">
-      <h1 class="pull-left">ADD USER</h1> 
+      <h1 class="pull-left">Novo Usuário</h1> 
       <div class="pull-right" style="margin-top: 15px">
-        <span class="text-red" style="margin-right: -7px;">&lt;&lt;</span><a href="${pageContext.request.contextPath}/user/list" class="btn btn-lnk text-white">back to user's list</a>
+        <span class="text-red" style="margin-right: -7px;">&lt;&lt;</span><a href="${pageContext.request.contextPath}/usuario/lista" class="btn btn-lnk text-white">voltar a lista </a>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" style="background-color:white">
     
-      <form action="<c:url value="/usuario/salva"/>" id="dataUpload" class="widget LINE show form" method="POST" role="form">
+      <form action="/usuario/salva"  class="form-horizontal" method="POST" role="form" >
 
 		<c:forEach var="error" items="${errors}">
   			    <div class="alert alert-danger">
@@ -45,7 +45,7 @@
 		</c:forEach>
      
         <div class="form-group">
-          <label for="txtName" class="form">Name:</label> 
+          <label for="txtName" class="form">Nome:</label> 
           <div>
             <div class="downbox">
               <input type="text" id="txtName" name="usuario.nome" class="form-field min-w-270" />          
@@ -71,14 +71,10 @@
               </div>
             </div>
           </div>
-          
-
-        
-       
 	
       
         <div class="form-group text-right" style="width: 270px">
-		<input type="submit" value="Save" class="btn btn-red btn-lg" />
+		<input type="submit" value="Save" class="btn btn-primary" />
        	</div>
       </form>
     </div>
@@ -96,10 +92,7 @@
     <script src="${pageContext.request.contextPath}/js/lib/bootstrap.min.js"></script>
     <script src="${pageContext.request.contextPath}/js/lib/bootstrap-multiselect.js"></script>
     
-    <!-- Include all individual files -->
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/downbox.js"></script>  
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/components.js"></script>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/user/new.js"></script>   
+
   </body>
   
   
