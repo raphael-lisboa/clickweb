@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Light'), local('OpenSans-Light'), url('fonts/opensans-light.eot');
+    src: url('fonts/opensans-light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-light.woff') format('woff'),
+         url('fonts/opensans-light.ttf') format('truetype'),
+         url('fonts/opensans-light.svg#open_sanslight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), local('OpenSans'), url('fonts/opensans-regular.eot');
+    src: url('fonts/opensans-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-regular.woff') format('woff'),
+         url('fonts/opensans-regular.ttf') format('truetype'),
+         url('fonts/opensans-regular.svg#open_sansregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url('fonts/opensans-semibold.eot');
+    src: url('fonts/opensans-semibold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-semibold.woff') format('woff'),
+         url('fonts/opensans-semibold.ttf') format('truetype'),
+         url('fonts/opensans-semibold.svg#open_sanssemibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+
+
+
+	/* TYPOGRAPHY */
+	body {
+		font-family: 'Open Sans';
+		font-size: 13px;
+		color: #5a5a5a;
+		font-weight: 300;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Open Sans';
+		font-weight: 400;
+	}
+
+	h1, h2, h3 {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		color: #013476;
+		font-weight: 600;
+	}
+
+	h5 {
+		color: #5b5b5b;
+		font-weight: 600;
+	}
+
+	h1 { font-size: 22px; }
+	h2 { font-size: 20px; }
+	h3 { font-size: 18px; }
+	h4 { font-size: 16px; }
+	h5 { font-size: 14px; }
+
+	.header>h1 {
+		font-size: 17px;
+		font-weight: 400;
+		color: black;
+		text-transform: uppercase;
+		padding: 15px 25px;
+		padding-bottom: 35px;
+	}
+
+	strong {
+		font-weight: 600;
+	}
+
+	label {
+		font-size: 13px;
+		font-weight: 300;
+	}
+
+	label.form {
+		font-size: 14px;
+		font-weight: 400;
+		color: #393939;
+	}
